@@ -1,6 +1,19 @@
+"""
+This file contains a function to calculate the BMI of a person.
+"""
 
-# We are defining our function with 2 arguments
+
 def calculate_bmi(weight, height):
+    """
+    Calculate the BMI of a person.
+
+    Args:
+        weight (float): weight of the person in kg
+        height (float): height of the person in meters
+
+    Returns:
+        float: the BMI of the person
+    """
     
     # if height is over 2.5m, assume is in centimeters and convert to metres
     if height > 2.5:
